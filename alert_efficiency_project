@@ -1,0 +1,85 @@
+# Improving Prescription Alert Efficiency Through Data-Driven EHR Analysis
+
+## Overview
+
+Alert fatigue is a common problem in clinical settings, especially when EHR systems generate too many notifications that don’t lead to meaningful action. For this project, I analyzed de-identified hospital data to understand how prescription-related alerts are triggered, how providers respond to them, and where inefficiencies might be improved.
+
+This project was part of a graduate-level course in health informatics and focuses on using real-world data to support better decision-making through smarter alert design.
+
+---
+
+## Project Goals
+
+- Understand how alerts are distributed across providers and encounters  
+- Explore how often alerts lead to changes in prescriptions  
+- Measure provider response times and identify patterns by provider type  
+- Recommend ways to make alert systems more efficient and less disruptive
+
+---
+
+## Questions I Explored
+
+- Which providers receive the most alerts, and how many encounters do they handle?
+- What are the most common reasons alerts are triggered?
+- How do providers typically respond to alerts? What's the breakdown of actions?
+- On average, how long does it take for providers to respond?
+- How many alerts actually result in a medication change?
+- Which medications are most frequently linked to alerts?
+
+---
+
+## Approach & Methods
+
+The dataset included five main tables: encounters, alerts, actions, medications, and providers. I built a relational schema and normalized the data to keep it structured and easy to query. I also removed redundant fields, handled missing values, and made the data easier to work with in SQL.
+
+Once the data was cleaned and organized, I used SQL (in PostgreSQL) to join tables, run aggregation queries, and explore trends in provider behavior, alert effectiveness, and timing.
+
+---
+
+## Key Steps in the Project
+
+- Designed a relational schema and normalized data into five tables  
+- Cleaned and transformed raw datasets, dropping unnecessary or repetitive fields  
+- Wrote SQL queries to calculate alert volumes, response times, and action rates  
+- Analyzed provider patterns and medication-related alert trends  
+- Identified potential opportunities to improve the alerting logic within EHR systems  
+
+---
+
+## Skills Used
+
+SQL (PostgreSQL), relational database design, data normalization, ERD creation, data cleaning, healthcare data analysis, and working with real-world clinical workflow data.
+
+---
+
+## What I Found
+
+- A small number of medications triggered a large share of alerts  
+- Many alerts did not lead to any change in prescriptions  
+- Provider response time varied by provider type, suggesting workflow differences  
+- Some providers consistently received a high number of alerts, raising questions about how alerts are assigned
+
+Overall, the data highlighted several ways EHR alerts could be adjusted to reduce unnecessary interruptions and better support clinical decisions.
+
+---
+
+## Why It Matters
+
+Clinical decision support tools are only useful when they’re trusted and relevant. This analysis shows how alert systems can be fine-tuned to avoid overwhelming providers and instead focus on delivering the right message at the right time. It’s a small step toward making health IT more usable—and ultimately safer for patients.
+
+---
+
+## Sample Visuals
+
+<img src="images/Alert_Project_Chart1.png?raw=true" alt="Alert Volume by Provider"/>
+<img src="images/Alert_Project_Chart2.png?raw=true" alt="Response Time by Provider Type"/>
+<img src="images/Alert_Project_Chart3.png?raw=true" alt="Top Medications Triggering Alerts"/>
+
+---
+
+## About Me
+
+Hi! I’m Gautham Jayaraj, a recent Master’s graduate in Health Informatics. I’m passionate about using data to make healthcare systems smarter and more patient-centered. You can learn more about me or reach out below.
+
+[LinkedIn](https://linkedin.com/in/yourprofile)  
+gaujay7@gmail.com
