@@ -2,7 +2,7 @@
 
 ---
 
-### Category Name 1 
+### Project #1
 
 [Optimizing Nursing Home Distribution and Quality Using Medicare/Medicaid Enrollment and Population Trends](/nursing_home_project)
 
@@ -21,15 +21,43 @@ We sourced our data from CMS’s Chronic Conditions Data Warehouse and the Medic
 - Built visualizations to highlight discrepancies in access and performance  
 - Evaluated areas for potential new nursing home development based on need and population trends
 
+**Skills used:** Python (Pandas), data cleaning, exploratory data analysis (EDA), geographic trend analysis, public health data interpretation, and data visualization (e.g., maps, charts).
+
 This work aims to support healthcare administrators, policymakers, and community planners in making data-driven decisions to ensure better long-term care access and equity.
+
+Sample visualizations:
 
 <img src="images/Business Question 2 Picture 1.png?raw=true"/>
 <img src="images/Business Question 2 Picture 2.png?raw=true"/>
 <img src="images/Business Question 2 Picture 3.png?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+### Project #2
+
+[Improving Prescription Alert Efficiency Through Data-Driven EHR Analysis](/alert_efficiency_project)
+
+This project was developed as part of a graduate-level assignment focused on information systems and data-driven decision-making in healthcare. The goal was to evaluate how clinical alerts function within Electronic Health Record (EHR) systems and propose improvements to reduce inefficiencies in prescription-related notifications.
+
+Using a de-identified dataset of provider encounters, alerts, actions, and medication orders, I examined alert frequency, response times, and prescription changes to assess whether current alert systems were effectively supporting clinical workflows.
+
+**Key questions we explored:**
+- What are the number of encounters and alerts handled per provider?
+- What are the most common alert reasons and medications involved?
+- How quickly do providers respond to alerts, and does that vary by role?
+- What percentage of alerts result in an actual change to medication?
+- How is provider action distributed across different types of alerts?
+
+**What we did:**
+- Created a relational database structure with five normalized tables (alerts, encounters, providers, actions, and medications)
+- Cleaned and reduced the dataset by removing redundant and null-heavy columns (e.g., override reason, duplicate provider IDs)
+- Joined key tables to compute metrics such as alert frequency, response time, and change rates
+- Used SQL to perform detailed aggregations and visual breakdowns of provider behavior and alert effectiveness
+- Identified potential inefficiencies in alert design that could be addressed with smarter EHR alert logic
+
+**Skills used:** SQL (PostgreSQL), database normalization, ERD design, data cleaning, relational joins, aggregation queries, and healthcare data interpretation.
+
+This work was part of a proposal to improve hospital EHR systems, aiming to reduce alert fatigue and enhance decision-making by tailoring alerts to be more actionable and timely.
 
 ---
 [Project 3 Title](http://example.com/)
