@@ -71,9 +71,14 @@ Clinical decision support tools are only useful when they’re trusted and relev
 
 ## Sample Visuals
 
-<img src="images/Alert_Project_Chart1.png?raw=true" alt="Alert Volume by Provider"/>
-<img src="images/Alert_Project_Chart2.png?raw=true" alt="Response Time by Provider Type"/>
-<img src="images/Alert_Project_Chart3.png?raw=true" alt="Top Medications Triggering Alerts"/>
+**1. Alert Volume by Provider**  
+<img src="images/Q1.png?raw=true" alt="Alert Volume by Provider"/>
+
+**2. Provider Action Breakdown**  
+<img src="images/Q3.png?raw=true" alt="Provider Action Breakdown"/>
+
+**3. Top Medications Triggering Alerts**  
+<img src="images/Q6.png?raw=true" alt="Top Medications Triggering Alerts"/>
 
 ---
 
