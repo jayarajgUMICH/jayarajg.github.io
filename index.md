@@ -60,10 +60,32 @@ Using a de-identified dataset of provider encounters, alerts, actions, and medic
 This work was part of a proposal to improve hospital EHR systems, aiming to reduce alert fatigue and enhance decision-making by tailoring alerts to be more actionable and timely.
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
+## Project #3  
+**Segmenting U.S. Healthcare Facilities with K-Means and UMAP to Identify Operational Trends**
+[Improving Prescription Alert Efficiency Through Data-Driven EHR Analysis](/alert_efficiency_project)
+
+This project was completed as part of a graduate-level data science course in health systems. The goal was to uncover meaningful patterns in U.S. hospital operations using clustering techniques, with a focus on charges, staffing, and inpatient vs. outpatient capacity.
+
+Using publicly available data from the Centers for Medicare & Medicaid Services (CMS), we analyzed hospital-level metrics to explore how facilities vary in resource allocation and cost structures. The outcome was a set of interpretable clusters that offer insights into operational variation across the U.S. healthcare system.
+
+### Key questions we explored:
+- Can U.S. hospitals be grouped by operational similarities (e.g., charges, staffing, bed availability)?
+- Do geographic or service-type patterns emerge across these clusters?
+- What defines facilities with high inpatient costs vs. outpatient-oriented care?
+
+### What we did:
+- Cleaned and preprocessed CMS hospital data by removing null-heavy and duplicate fields
+- Standardized key operational metrics such as total charges, outpatient services, and staffing
+- Performed K-means clustering to segment hospitals into groups based on selected features
+- Used UMAP (Uniform Manifold Approximation and Projection) to reduce dimensionality for visualization
+- Interpreted cluster profiles to identify meaningful operational differences
+
+### Skills used:
+**R**, `kmeans`, `umap`, `dplyr`, `ggplot2`, data wrangling, unsupervised learning, dimensionality reduction, healthcare systems analysis
+
+### Why it matters:
+This project demonstrates how machine learning techniques like clustering and dimensionality reduction can support more data-informed health policy and operational planning. By understanding the different types of hospitals that exist across the U.S., decision-makers can more effectively allocate resources, benchmark performance, and target interventions where they’re most needed.
 
 ### Category Name 2
 
