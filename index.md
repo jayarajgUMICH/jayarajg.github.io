@@ -4,7 +4,7 @@
 
 ### Project #1
 
-[Optimizing Nursing Home Distribution and Quality Using Medicare/Medicaid Enrollment and Population Trends](/nursing_home_project)
+[Optimizing Nursing Home Distribution and Quality Using Medicare/Medicaid Enrollment and Population Trends](/nursing_home_project.md)
 
 This project was completed as part of a graduate-level technical report in health informatics. The objective was to evaluate and improve the distribution and quality of nursing homes across the United States using publicly available healthcare and demographic data.
 
